@@ -191,3 +191,7 @@ if screen == 'Ownership':
         st.write(transaction['fullName'])
         st.write(transaction['transactionShares'])
         st.write(transaction['transactionPrice'])
+
+
+if screen == 'Ownership':
+    st.subheader("Technicals")
